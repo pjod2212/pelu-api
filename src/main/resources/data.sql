@@ -29,19 +29,3 @@ INSERT INTO public.servicio(
 INSERT INTO public.servicio(
 	id_servicio, nombre, precio)
 	VALUES (3, 'Brushing', '$800');
-
-INSERT INTO public.rel_servicio_peluquero(
-	servicio_id, peluquero_id, id_rel_servicio_peluquero)
-	VALUES (1, 1, 1);
-
-INSERT INTO public.rel_servicio_peluquero(
-	servicio_id, peluquero_id, id_rel_servicio_peluquero)
-	VALUES (1, 2, 1);
-
-INSERT INTO public.rel_servicio_peluquero(
-	servicio_id, peluquero_id, id_rel_servicio_peluquero)
-	VALUES (2, 2, 1);
-
-INSERT INTO public.rel_servicio_peluquero(
-	servicio_id, peluquero_id, id_rel_servicio_peluquero)
-	VALUES (3, 2, 1);
